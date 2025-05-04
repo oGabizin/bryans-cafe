@@ -115,20 +115,24 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 10px;
     position: relative;
     bottom: 0;
     width: 100%;
+    font-size: 14px;
 }
 
 footer a {
-    color: #af684ccb;
+    display: block;
+    margin-top: 5px;
+    color: #c57d5d;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
 
 /* Tables */
 table {
