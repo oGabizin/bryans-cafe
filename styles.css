@@ -115,9 +115,9 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 6px 10px;
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 footer p {
@@ -125,16 +125,17 @@ footer p {
 }
 
 footer a {
+    display: block;
+    margin-top: 4px;
     color: #c57d5d;
     text-decoration: none;
-    margin-top: 4px;
-    display: inline-block;
     font-size: 13px;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
+
 
 
 
