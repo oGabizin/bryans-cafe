@@ -264,33 +264,40 @@ table td {
 
 /* Responsive layout for all devices */
 @media (max-width: 768px) {
-    header, nav {
+    header {
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: 10px 0;
+    }
+
+    header .logo {
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+        margin: 10px 0;
     }
 
     nav ul {
         flex-direction: column;
         align-items: center;
-        width: 100%;
         gap: 10px;
-        margin: 10px 0;
         padding: 0;
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 0;
     }
 
     nav a {
-        font-size: 16px;
         padding: 8px 12px;
         background-color: #92543b;
-        color: white;
-        border-radius: 4px;
-        text-decoration: none;
-        display: inline-block;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
     }
 
     nav a:hover {
@@ -310,6 +317,7 @@ table td {
 
     .about-text, .history-text {
         max-width: 100%;
+        padding: 0;
     }
 
     #menu ul {
@@ -318,26 +326,11 @@ table td {
     }
 
     #menu ul li {
-        flex: 1 1 100%;
         max-width: 90%;
     }
 
-    .text-box {
-        margin: 10px 5px;
-        padding: 15px;
-    }
-
-    table {
-        font-size: 14px;
-    }
-
-    #contact form {
-        margin: 10px;
-        padding: 15px;
-    }
-
     footer {
-        padding: 10px;
         font-size: 13px;
+        padding: 10px;
     }
 }
