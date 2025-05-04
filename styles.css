@@ -265,3 +265,47 @@ table td {
         max-width: 100%;
     }
 }
+/* Responsive layout for all devices */
+@media (max-width: 768px) {
+    header, nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .about, .history {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .about img, .history img {
+        max-width: 100%;
+    }
+
+    .about-text, .history-text {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #menu ul li {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .text-box {
+        margin: 10px 0;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px 10px;
+    }
+}
