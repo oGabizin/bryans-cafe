@@ -341,3 +341,59 @@ footer {
     font-size: 14px;
     line-height: 1.4;
 }
+@media (max-width: 768px) {
+    header, nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .about, .history {
+        flex-direction: column;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .about img, .history img {
+        max-width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .about-text, .history-text {
+        max-width: 100%;
+    }
+
+    #menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu ul li {
+        max-width: 90%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    #contact form {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .text-box {
+        margin: 10px 5px;
+        padding: 15px;
+    }
+}
