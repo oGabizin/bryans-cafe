@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <meals>
+        <meal>
+            <name>Beetroot and Feta Salad</name>
+            <price>15.00</price>
+            <description>Suitable for vegetarians, made with fresh beetroot</description>
+            <image>beetroot_feta_salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Sourdough Rye Sandwich</name>
+            <price>18.00</price>
+            <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+            <image>sourdough_rye_sandwich.jpg</image>
+        </meal>
+        <meal>
+            <name>Spinach Pie and Salad</name>
+            <price>20.00</price>
+            <description>Tasty pie with salad</description>
+            <image>spinach_pie_salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Feta Pancakes with Salad</name>
+            <price>19.50</price>
+            <description>Tasty pancake filled with feta and salad</description>
+            <image>feta_pancakes_salad.jpg</image>
+        </meal>
+    </meals>
+    <beverages>
+        <hotBeverages>
+            <beverage>
+                <size>Small</size>
+                <price>3.50</price>
+                <description>For coffee, please inform the staff of the coffee type.</description>
+            </beverage>
+            <beverage>
+                <size>Regular</size>
+                <price>4.00</price>
+                <description>For coffee, please inform the staff of the coffee type.</description>
+            </beverage>
+            <beverage>
+                <size>Large</size>
+                <price>4.50</price>
+                <description>For coffee, please inform the staff of the coffee type.</description>
+            </beverage>
+        </hotBeverages>
+        <otherBeverages>
+            <beverage>
+                <name>Soda</name>
+                <price>3.00</price>
+            </beverage>
+            <beverage>
+                <name>Fresh Juice</name>
+                <price>6.00</price>
+            </beverage>
+            <beverage>
+                <name>Bottled Water</name>
+                <price>2.00</price>
+            </beverage>
+        </otherBeverages>
+    </beverages>
+</menu>
