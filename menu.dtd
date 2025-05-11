@@ -9,3 +9,4 @@
 <!ELEMENT hotBeverages (beverage+)>
 <!ELEMENT otherBeverages (beverage+)>
 <!ELEMENT beverage (name?, size?, price, description?)>
+<!ELEMENT size (#PCDATA)
